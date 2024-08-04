@@ -1,1 +1,74 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: blue;
+}
+
+.form-group {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+.table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f4f4f4;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
